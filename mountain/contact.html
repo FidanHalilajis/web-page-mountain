@@ -1,0 +1,119 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Fidani website</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Kaushan+Script&family=Permanent+Marker&family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;1,100&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/fida.png" width="100px" height="100px" ></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">SHTEPI</a></li>
+                        <li><a href="about.html">PER NE</a></li>
+                        <li><a href="course.html">SHERBIMET</a></li>
+                        <li><a href="blog.html">PROGRAMI</a></li>
+                        <li><a href="contact.html">KONTAKTI</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars"onclick="showMenu()"></i>
+            </nav>
+            <h1>KONTAKTI</h1>
+        </section>
+
+<!-------contact us------>
+
+<section class="location">
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23427.41817885086!2d20.49227035!3d42.77931639999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x135319bade732223%3A0x1860710804f86dc7!2z0JjRgdGC0L7Qug!5e0!3m2!1sen!2s!4v1648848683344!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>Rr.Drita e Parë</h5>
+                        <P> ISTOG, KOSOVO 31000</P>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>+383-45-300-400</h5>
+                        <P> E Hëne deri te Premnten (8:00 deri në 16:00)</P>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope-o"></i>
+                    <span>
+                        <h5>Fidan_Halilaj@hotmail.com</h5>
+                        <P> Dergoni email</P>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+                 <form action="">
+                     <input type="text" placeholder="Emri" required>
+                     <input type="email" placeholder="Emaili" required>
+                     <input type="text" placeholder="Subjekti " required>
+                     <textarea  rows="8" placeholder="Mesazhi" required></textarea>
+                     <button type="submit" class="hero-btn red-btn">Dergoni Mesazhin</button>
+
+
+                 </form>
+
+
+
+            </div>
+        </div>
+
+    </section>
+
+</section>
+
+<!-----Footer----->
+
+
+<section class="footer">
+    <h4>PER NE</h4>
+    <P>E krijuar ne vitin 2022 kompania jon ka per qellim zhvillimin e turizmin dhe alpinizmit ne vendit ton ,<br> me ofrimin e sherbimeve me te lira per konsumatorin ,<br>MOTOJA jonë 'te gjith se bashku' </P>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+
+    </div>
+    <p>E bere me <i class="fa fa-heart-o"></i> nga FIDAN HALILAJ</p>
+</section>
+
+
+
+
+
+
+
+<!------javascript for menu------>
+        <script>
+            var navLinks=document.getElementById("navLinks");
+
+            function showMenu(){
+                navLinks.style.right="0";
+
+            }
+            function hideMenu(){
+                navLinks.style.right="-200px";
+            }
+        </script>
+
+
+    </body>
+</html>

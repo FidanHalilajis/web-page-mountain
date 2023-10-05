@@ -1,0 +1,123 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Fidani website</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Kaushan+Script&family=Permanent+Marker&family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;1,100&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/fida.png" width="100px" height="100px" ></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">SHTEPI</a></li>
+                        <li><a href="about.html">PER NE</a></li>
+                        <li><a href="course.html">SHERBIMET</a></li>
+                        <li><a href="blog.html">PROGRAMI</a></li>
+                        <li><a href="contact.html">KONTAKTI</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars"onclick="showMenu()"></i>
+            </nav>
+            <h1>Programi i jonë për vitin 2022</h1>
+        </section>
+
+
+<!-----blog pafe-----> 
+
+        <section class="blog-content">
+
+            <div class="row">
+                <div class="blog-left">
+                    <img src="images/image9.jpeg">
+                    <h2>Programi i jonë për vitin 2022</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis a aperiam consequuntur ea praesentium rem ad sit. Maxime veniam praesentium quasi eum quis beatae facilis consectetur sapiente eius, dignissimos ab!</p>
+                    <br>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est harum reprehenderit accusantium maiores laboriosam temporibus illum sapiente voluptates quas, magnam officiis velit similique placeat delectus quo, nostrum dignissimos repellat nesciunt?</p>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero error repellat ex dicta. Cupiditate ab, pariatur minus minima dolor, vel laboriosam amet optio, dolorem facere iusto cumque numquam qui repellendus.</p>
+                    <br>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, obcaecati. Autem, esse iure id minima, ipsum, totam laudantium quos itaque sapiente corporis a recusandae vitae nisi harum? Ipsum, laboriosam optio!</p>
+                    
+                    <div class="comment-box">
+
+                        <h3>Shkruani komentin</h3>
+                        <form class="comment-form">
+                            <input type="text" placeholder="Emri">
+                            <input type="email" placeholder="Emaili">
+                            <textarea  rows="5" placeholder="Komenti i juaj"></textarea>
+                            <button type="submit" class="hero-btn red-btn">Dërgoni Komentin</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="blog-right">
+                    <h3>Kategorit</h3>
+                    <div>
+                        <span>Ecje në bjeshkë</span>
+                        <span>1</span>
+                    </div>
+                    <div>
+                        <span>Lëshim me Parashutë</span>
+                        <span>4</span>
+                    </div>
+                    <div>
+                        <span>Alpinizem jashtë vendit</span>
+                        <span>9</span>
+                    </div>
+                    <div>
+                        <span>Alpinizem në grupe</span>
+                        <span>11</span>
+                    </div>
+                    <div>
+                        <span>Alpinizem individual</span>
+                        <span>15</span>
+                    </div>
+                </div>
+            </div>
+
+        </section>       
+
+<!-----Footer----->
+
+
+<section class="footer">
+    <h4>PER NE</h4>
+    <P>E krijuar ne vitin 2022 kompania jon ka per qellim zhvillimin e turizmin dhe alpinizmit ne vendit ton ,<br> me ofrimin e sherbimeve me te lira per konsumatorin ,<br>MOTOJA jonë 'te gjith se bashku' </P>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+
+    </div>
+    <p>E bere me <i class="fa fa-heart-o"></i> nga FIDAN HALILAJ</p>
+</section>
+
+
+
+
+
+
+
+<!------javascript for menu------>
+        <script>
+            var navLinks=document.getElementById("navLinks");
+
+            function showMenu(){
+                navLinks.style.right="0";
+
+            }
+            function hideMenu(){
+                navLinks.style.right="-200px";
+            }
+        </script>
+
+
+    </body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Fidani website</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Kaushan+Script&family=Permanent+Marker&family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;1,100&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/fida.png" width="100px" height="100px" ></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">SHTEPI</a></li>
+                        <li><a href="about.html">PER NE</a></li>
+                        <li><a href="course.html">SHERBIMET</a></li>
+                        <li><a href="blog.html">PROGRAMI</a></li>
+                        <li><a href="contact.html">KONTAKTI</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars"onclick="showMenu()"></i>
+            </nav>
+            <h1>PER NE</h1>
+        </section>
+
+<!-------About us content------>
+
+       <section class="about-us">
+
+        <div class="row">
+            <div class="about-col">
+                <h1>NE JEMI KOMPANIA ME E MADHE DHE E VETME NE KOSOVE</h1>
+            <p>E krijuar në vitin 2022 ne jemi kompania e parë dhe e vetme në Kosovë e cila ofron shërbime për vizitë të bukurive natyrore ,malore të vendit,E krijuar me qëllim që të ofroj siguri dhe rahati per konsumatorin që të ket sa më te lehtë dhe me te bukur udhetimin,ne jemi shumë të kujdesshëm në zgjedhjen e njerëzve të duhur për çdo pozicion në kompaninë tonë. Duke qenë një kompani relativisht e re, ne kerkojmë vazhdimisht njerëz të kualifikuar dhe që duan të zvhillohen së bashku me kompaninë.Alpinizmi është një nga mundësitë e mira që Kosova iu ofron turistëve për shkak të rajoneve malore që posedon. Këtë e pohojnë Shoqatat për Bjeshkatari në Kosovë,Alpinizmi është jo vetëm në dobi të shëndetit, por edhe të temperamentit,</p>
+                <a href="" class="hero-btn red-btn"> EKSPLORONI ME SHUME</a>
+            </div>
+            <div class="about-col">
+                <img src="images/image3.jpeg"  >
+            </div>
+        </div>
+
+       </section>
+
+
+
+<!-----Footer----->
+
+
+<section class="footer">
+    <h4>PER NE</h4>
+    <P>E krijuar ne vitin 2022 kompania jon ka per qellim zhvillimin e turizmin dhe alpinizmit ne vendit ton ,<br> me ofrimin e sherbimeve me te lira per konsumatorin ,<br>MOTOJA jonë 'te gjith se bashku' </P>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+
+    </div>
+    <p>E bere me <i class="fa fa-heart-o"></i> nga FIDAN HALILAJ</p>
+</section>
+
+
+
+
+
+
+
+<!------javascript for menu------>
+        <script>
+            var navLinks=document.getElementById("navLinks");
+
+            function showMenu(){
+                navLinks.style.right="0";
+
+            }
+            function hideMenu(){
+                navLinks.style.right="-200px";
+            }
+        </script>
+
+
+    </body>
+</html>
